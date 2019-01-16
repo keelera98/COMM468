@@ -1,1 +1,1 @@
-Javascript App
+Using HTML and Javascript this app offers information to people.
