@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(casino.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overall-cont {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #62b2f7;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    opacity: .8;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    color: #6163f7;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    opacity: .8;
+}
+
+input {
+    margin-left: 12%;
+}
+
+.startButton {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+    background-color: #c12113;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100px;
+    margin: 0 auto;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #e05a4e;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+}
+
+#answer {
+    color: #62b2f7;
+    font-family: 'Crimson Text', serif;
+    background: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.yesNo {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#playerEntered {
+   color: #62b2f7;
+   background: #fff;
+   padding: 10px;
+   border-radius: 25px;
+   margin: 10px;
+   font-family: 'Crimson Text', serif;
+}
+
+#weeks{
+    margin: 15px;
+    margin-left: 25%;
+}
+
+#weeksRan {
+    margin: 15px;
+    margin-left: 12%;
+}
+
+#numbers {
+    margin-left: 25%;
+}
+
+.smaller {
+    font-size: 16px;
+    margin: 10px;
+    font-family: 'Crimson Text', serif;
+}
+
+.center {
+    margin-left: 34%;
+}
