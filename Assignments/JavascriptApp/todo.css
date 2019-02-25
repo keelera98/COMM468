@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: url("notepad.jpg") no-repeat center center fixed;
+    background-size: cover !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7em;
+}
+
+h1 {
+    font-family: 'Coiny', cursive;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 1.5em;
+}
+
+.greenColor {
+    color: #33d651;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: upper-roman;
+    font-family: 'Roboto Slab', serif;
+}
+
+ul li {
+    transition: 0.5s;
+    padding-right: 5em;
+    padding-left: 2em;
+}
+
+ul li:hover {
+    background-color: #f96868;
+    cursor: pointer;
+}
