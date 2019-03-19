@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+    background: url("galaxy.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #fcfbed;
+}
+
+#exp, #date {
+	font-family: 'Vollkorn', serif;
+	color: #ffd8d6;
+	font-size: 20px;
+}
+
+#date {
+	margin: 10px;
+}
+
+#title {
+	color: #ffd8d6;
+	font-size: 30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin: 10px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	font-size: 50px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin: 10px;
+}
+
+img {
+	max-width: 60%;
+}
+
+#exp {
+	margin: 15px;
+}
