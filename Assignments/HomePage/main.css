@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+    background: url("galaxy.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, p {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #fcfbed;
+}
+
+#exp, #date {
+	font-family: 'Vollkorn', serif;
+	color: #ffd8d6;
+	font-size: 20px;
+}
+
+#date {
+	margin: 10px;
+}
+
+#title {
+	color: #ffd8d6;
+	font-size: 30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin: 10px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	font-size: 50px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin: 10px;
+}
+
+img {
+	max-width: 60%;
+    max-height: 80%;
+}
+
+iframe {
+    display: none;
+}
+
+#iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+#iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 60%;
+}
+ 
+/* 4x3 Aspect Ratio */
+#iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+#exp {
+	margin: 15px;
+}
