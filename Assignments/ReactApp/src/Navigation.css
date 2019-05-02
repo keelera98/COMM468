@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	background-color: #e8eff7;
+	padding: 0px;
+	margin: 0px;
+	height: 65px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+li {
+	padding: 20px;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:visited {
+	color: #000;
+}
+
+li:hover{
+	background-color: #f26159;
+	border-radius: 25px;
+}
